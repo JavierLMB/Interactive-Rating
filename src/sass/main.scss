@@ -8,9 +8,31 @@
   width: 100%;
 
   &__container {
-    border-radius: 20px;
+    border-radius: 15px;
     background-color: $color-secondary;
     width: 300px;
     padding: 25px;
+  }
+}
+
+.rating {
+  &__stars {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__star {
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: $color-secondary-light;
+    color: $color-light-gray;
+
+    & > i {
+      font-size: 10px;
+      color: $color-primary;
+    }
   }
 }
