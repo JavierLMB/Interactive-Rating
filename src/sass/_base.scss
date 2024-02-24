@@ -1,9 +1,12 @@
 ////// Colors
 $color-black: hsl(0, 0%, 0%);
 $color-white: hsl(0, 0%, 100%);
-$color-off-white: hsl(0, 0%, 98%);
-$color-dark-gray: hsl(255, 8%, 9%);
-$color-light-gray: hsl(260, 1%, 42%);
+$color-primary: hsl(25, 97%, 53%);
+$color-secondary: hsl(215, 25%, 13%);
+$color-secondary-light: hsl(210, 19%, 18%);
+$color-tertiary: hsl(214, 12%, 54%);
+$color-light-gray: hsl(220, 10%, 65%);
+$color-background: hsl(228, 11%, 9%);
 
 ////// Spacing
 $default-horizontal-container-padding: 20px;
