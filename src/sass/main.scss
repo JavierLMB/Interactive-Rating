@@ -8,14 +8,28 @@
   width: 100%;
 
   &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
     border-radius: 15px;
     background-color: $color-secondary;
-    width: 300px;
-    padding: 25px;
+    width: 350px;
+    padding: 30px;
   }
 }
 
 .rating {
+  &__title {
+    font-size: 24px;
+    font-weight: 600;
+    color: $color-white;
+  }
+
+  &__content {
+    font-size: 13px;
+    color: $color-light-gray;
+  }
+
   &__stars {
     display: flex;
     justify-content: space-between;
@@ -25,14 +39,27 @@
     display: grid;
     place-items: center;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     background-color: $color-secondary-light;
     color: $color-light-gray;
 
     & > i {
-      font-size: 10px;
+      font-size: 15px;
       color: $color-primary;
     }
+  }
+
+  &__btn {
+    display: grid;
+    place-items: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border-radius: 200px;
+    color: $color-primary;
+    background-color: $color-white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
   }
 }
