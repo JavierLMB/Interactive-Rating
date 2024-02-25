@@ -35,7 +35,8 @@
     justify-content: space-between;
   }
 
-  &__star {
+  &__star,
+  &__icon {
     display: grid;
     place-items: center;
     border-radius: 50%;
@@ -50,6 +51,15 @@
     }
   }
 
+  &__star {
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-primary;
+      color: $color-white;
+    }
+  }
+
   &__btn {
     display: grid;
     place-items: center;
@@ -61,5 +71,10 @@
     font-weight: 600;
     letter-spacing: 1px;
     cursor: pointer;
+
+    &:hover {
+      color: $color-primary;
+      background-color: $color-white;
+    }
   }
 }
