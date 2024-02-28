@@ -1,0 +1,7 @@
+@use "base" as *;
+
+.main__container {
+  background-color: $color-dark-gray;
+  height: 200px;
+  width: 200px;
+}

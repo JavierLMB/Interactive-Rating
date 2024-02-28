@@ -1,0 +1,74 @@
+////// Colors
+$color-black: hsl(0, 0%, 0%);
+$color-white: hsl(0, 0%, 100%);
+$color-off-white: hsl(0, 0%, 98%);
+$color-dark-gray: hsl(255, 8%, 9%);
+$color-light-gray: hsl(260, 1%, 42%);
+
+////// Spacing
+$default-horizontal-container-padding: 20px;
+$max-container-width: calc(1300px + #{$default-horizontal-container-padding});
+$layout-section-spacing: 90px;
+
+////// Border
+$default-border-radius: 20px;
+
+////// RESPONSIVE BREAKPOINTS
+$bp-large: 1280px;
+$bp-normal: 1000px;
+$bp-small: 800px;
+$bp-smaller: 350px;
+
+//////////
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+button {
+  text-align: inherit;
+  background: none;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
