@@ -8,9 +8,11 @@
   width: 100%;
 
   &__container {
+    display: flex;
     border-radius: 30px;
     background-color: $color-secondary;
     width: 350px;
+    height: 385px;
     padding: 30px;
     overflow: hidden;
 
@@ -26,9 +28,8 @@
     }
 
     &-summary-view {
+      display: none;
       background-color: red;
-      width: 100%;
-      height: 100%;
       transition: all 0.2s ease-in-out;
       transform: translate(120%, 0%);
 

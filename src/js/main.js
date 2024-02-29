@@ -18,7 +18,13 @@ function rating() {
     if (!activeStar) return;
 
     ratingView.classList.add("main__container-rating-view-submitted");
-    summaryView.classList.add("main__container-summary-view-submitted");
+    setTimeout(() => {
+      ratingView.style.display = "none";
+      summaryView.style.display = "block";
+    }, 200);
+    setTimeout(() => {
+      summaryView.classList.add("main__container-summary-view-submitted");
+    }, 250);
 
     const rating = activeStar.dataset.value;
     // alert(`You have rated this ${rating} stars`);
