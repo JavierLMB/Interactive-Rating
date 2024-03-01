@@ -1,6 +1,6 @@
 ### Interactive Rating
 
-Quick challenge from frontend mentor.
+Quick challenge by frontend mentor.
 
 ---
 
