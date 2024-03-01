@@ -16,6 +16,12 @@
     padding: 30px;
     overflow: hidden;
 
+    @media (width < $bp-small) {
+      padding: 15px;
+      width: 280px;
+      height: 360px;
+    }
+
     &-rating-view {
       display: flex;
       flex-direction: column;
@@ -70,6 +76,11 @@
     background-color: $color-secondary-light;
     color: $color-light-gray;
 
+    @media (width < $bp-small) {
+      width: 45px;
+      height: 45px;
+    }
+
     & > i {
       font-size: 15px;
       color: $color-primary;
@@ -101,6 +112,10 @@
     font-weight: 600;
     letter-spacing: 1px;
     cursor: pointer;
+
+    @media (width < $bp-small) {
+      padding: 5px 0;
+    }
 
     &:hover {
       color: $color-primary;

@@ -8,19 +8,8 @@ $color-tertiary: hsl(214, 12%, 54%);
 $color-light-gray: hsl(220, 10%, 65%);
 $color-background: hsl(228, 11%, 9%);
 
-////// Spacing
-$default-horizontal-container-padding: 20px;
-$max-container-width: calc(1300px + #{$default-horizontal-container-padding});
-$layout-section-spacing: 90px;
-
-////// Border
-$default-border-radius: 20px;
-
 ////// RESPONSIVE BREAKPOINTS
-$bp-large: 1280px;
-$bp-normal: 1000px;
-$bp-small: 800px;
-$bp-smaller: 350px;
+$bp-small: 360px;
 
 //////////
 
