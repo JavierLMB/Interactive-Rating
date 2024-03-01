@@ -29,12 +29,15 @@
 
     &-summary-view {
       display: none;
-      background-color: red;
       transition: all 0.2s ease-in-out;
       transform: translate(120%, 0%);
+      text-align: center;
 
       &-submitted {
         transform: translate(0%, 0%);
+        align-items: center;
+        flex-direction: column;
+        gap: 27px;
       }
     }
   }
@@ -103,5 +106,42 @@
       color: $color-primary;
       background-color: $color-white;
     }
+  }
+}
+
+.summary {
+  &__icon {
+    margin-top: 15px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: $color-secondary-light;
+    color: $color-light-gray;
+
+    & > i {
+      font-size: 35px;
+      color: $color-primary;
+    }
+  }
+
+  &__rating {
+    color: $color-primary;
+    background-color: $color-secondary-light;
+    border-radius: 20px;
+    padding: 3px 20px;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 600;
+    color: $color-white;
+    margin-bottom: 5px;
+  }
+
+  &__content {
+    font-size: 13px;
+    color: $color-light-gray;
   }
 }

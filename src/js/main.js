@@ -20,7 +20,7 @@ function rating() {
     ratingView.classList.add("main__container-rating-view-submitted");
     setTimeout(() => {
       ratingView.style.display = "none";
-      summaryView.style.display = "block";
+      summaryView.style.display = "flex";
     }, 200);
     setTimeout(() => {
       summaryView.classList.add("main__container-summary-view-submitted");
