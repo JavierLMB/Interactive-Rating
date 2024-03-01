@@ -4,6 +4,7 @@ function rating() {
   const submit = document.querySelector(".rating__btn");
   const ratingView = document.querySelector(".main__container-rating-view");
   const summaryView = document.querySelector(".main__container-summary-view");
+  const ratingScore = document.querySelector(".summary__rating-score");
 
   ratingCounter.addEventListener("click", (e) => {
     const star = e.target.closest(".rating__star");
@@ -27,7 +28,7 @@ function rating() {
     }, 250);
 
     const rating = activeStar.dataset.value;
-    // alert(`You have rated this ${rating} stars`);
+    ratingScore.textContent = rating;
   });
 }
 
